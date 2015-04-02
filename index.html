@@ -575,6 +575,28 @@ diffs.</p>
 }
 </code></pre>
 </li>
+
+<li><p>Put opening brace on the same line as conditional/function block.</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// bad</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>
+<span class="hljs-literal">{</span>
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+}
+
+<span class="hljs-comment">// good</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+}
+</code></pre>
+</li>
+
+<span class="hljs-comment">// good</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+}
+</code></pre>
+</li>
+
 <li><p>If you&#39;re using multi-line blocks with <code>if</code> and <code>else</code>, put <code>else</code> on the same line as your
 <code>if</code> block&#39;s closing brace.</p>
 <pre><code class="lang-javascript"><span class="hljs-comment">// bad</span>
